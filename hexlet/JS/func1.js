@@ -1,0 +1,1 @@
+const DoubleNumber = (number) => number ** 2;

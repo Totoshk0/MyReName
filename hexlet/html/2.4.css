@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Cormorant-Regular";
+    src: url("../assets/fonts/Cormorant-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cormorant-bold";
+    src: url("../assets/fonts/Cormorant-Bold.ttf");
+}
+
+h1 {
+    color: #333;
+    font-size: 30px;
+    line-height: normal;
+    font-family: "Cormorant-regular", serif;
+}
+
+.Jo {
+    color: #616161;
+    font-weight: 700;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    background-color: #ebebeb;
+}
+
+figure {
+    margin: 50px 0 0;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #333;
+    line-height: normal;
+    font-family: "Cormorant-regular", serif;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav>* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.nav a {
+
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #616161;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+}
+
+.interview {
+    color: #333;
+    font-size: 18px;
+    font-style: serif;
+    line-height: 1.5;
+}
+
+.interview-header {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: "Cormorant-bold", serif;
+    font-weight: 700;
+}
+
+.interview-description {
+    color: #686868;
+    font-style: sans-serif;
+}
+
+.interview-footer {
+    line-height: 1.25;
+    font-size: 12px;
+    text-align: left;
+}
+
+.interview-text {
+    line-height: 1.75;
+    font-size: 20px;
+    text-align: justify;
+}
